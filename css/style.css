@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    width: 33%;
+    margin: 5px;
+}
+
+#ajoutContact {
+    background-color: lightgrey;
+    border: 2px solid grey;
+    margin: 20px 0;
+    padding: 15px 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+button {
+    background: rgb(30, 226, 30);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+}
+
+table button,
+#supprimer {
+    width: 180px;
+}
+
+button:hover {
+    background: white;
+    color: rgb(30, 226, 30);
+    border: 2px solid rgb(30, 226, 30);
+}
+
+#tdButton {
+    text-align: center;
+}
+
+#contacts {
+    background-color: rgb(190, 211, 236);
+    border: 2px solid rgb(81, 81, 92);
+    margin: 20px 0;
+    padding: 15px 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+.persona {
+    color: blue;
+    text-transform: uppercase;
+}
+
+#suppresionContact,
+#supprimer {
+    display: none;
+}
